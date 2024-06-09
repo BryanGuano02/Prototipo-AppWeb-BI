@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Producto</title>
+    <style>
+        .producto {
+            display: flex;
+            background-color: #f2f2f2;
+            box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            padding: 20px;
+            margin: 20px 0px;
+        }
+    
+        .imagen_producto {
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 10px;
+            margin-right: 20px;
+        }
+    
+        .producto_info {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+    
+        .titulo_producto {
+            font-size: 1.2em;
+            font-weight: bold;
+            margin: 0px;
+        }
+    
+        .descripcion_producto {
+            margin: 0px;
+            color: #777;
+        }
+    
+        .precio_producto {
+            font-size: 1.2em;
+            font-weight: bold;
+            margin: 0px;
+            color: #000;
+        }
+    
+        .agregar_orden {
+            background-color: #000;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 10px;
+            font-size: 1em;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    
+
+    <div class="producto">
+        <img class="imagen_producto" src="\images\Taco.png" alt="Masaje relajante">
+        <div class="producto_info">
+            <h3 class="titulo_producto">Masaje relajante</h3>
+            <p class="descripcion_producto">Esta es una descripcion de la opción en cuestión ....</p>
+            <p class="precio_producto">$200.000</p>
+            <button class="agregar_orden">Agregar a orden</button>
+        </div>
+    </div>
+    </div>
+
+    
+</body>
+</html>

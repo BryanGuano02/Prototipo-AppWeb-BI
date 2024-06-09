@@ -1,0 +1,58 @@
+#masaje_menu {
+    display: flex;
+    justify-content: center;
+}
+
+.tarjeta_masaje {
+    width: 327.73px;
+    padding: 0px 67px 67px 67px;
+}
+
+.tarjeta_masaje .titulo2 {
+    color: #ffffff;
+    background-color: #A3A656;
+    border-radius: 15px 15px 0px 0px;
+    display: flex;
+    justify-content: center;
+    padding: 15px 0px 15px 0px;
+}
+
+.imagen_tarjeta {
+    width: 100%;
+}
+
+#masaje_menu .menu {
+    padding: 5px 0px 0px 5px;
+    margin: 0px;
+}
+
+.precio_boton_tarjeta {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0px 0px 10px;
+}
+
+.precio_tarjeta {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 2em;
+    margin: 0px;
+}
+
+.boton_tarjeta {
+    margin: 0px;
+    border-radius: 35px;
+    background-color: #A3A656;
+    color: #ffffff;
+    font-size: 1em;
+    height: 1.9em;
+    padding: 5px 30px 5px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Inter', sans-serif;
+}
+
+.boton_tarjeta:hover {
+    background-color: #384001;
+}

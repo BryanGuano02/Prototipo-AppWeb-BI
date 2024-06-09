@@ -51,7 +51,7 @@
 
 
   .estado {
-      background-color: #000000;
+      background-color: #4caf50;
       color: #ffffff;
       padding: 8px 16px;
       border-radius: 4px;
@@ -63,7 +63,7 @@
   }
 
   .orden_botones .boton {
-      background-color: #000000;
+      background-color: #ff6347;
       color: #ffffff;
       padding: 10px 20px;
       margin-right: 5px;

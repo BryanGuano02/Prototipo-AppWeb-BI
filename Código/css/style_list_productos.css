@@ -1,58 +1,101 @@
-#masaje_menu {
-    display: flex;
-    justify-content: center;
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
 }
 
-.tarjeta_masaje {
-    width: 327.73px;
-    padding: 0px 67px 67px 67px;
+header {
+    background-color: #FF6347;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
 }
 
-.tarjeta_masaje .titulo2 {
-    color: #ffffff;
-    background-color: #A3A656;
-    border-radius: 15px 15px 0px 0px;
+.principal {
+    background: url('/images/restaurant_bg.jpg') no-repeat center center/cover;
+    padding: 20px;
+}
+
+.hero {
+    background: rgba(0, 0, 0, 0.5);
+    height: 400px;
+    color: white;
+    text-align: center;
     display: flex;
     justify-content: center;
-    padding: 15px 0px 15px 0px;
+    align-items: center;
+}
+
+.hero h1 {
+    background-color: #FF6347;
+    font-size: 3em;
+    margin: 0;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.intro {
+    padding: 20px;
+    text-align: center;
+}
+
+.tarjeta_producto {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 20px;
+    overflow: hidden;
+    width: 300px;
+    text-align: center;
 }
 
 .imagen_tarjeta {
     width: 100%;
+    height: auto;
 }
 
-#masaje_menu .menu {
-    padding: 5px 0px 0px 5px;
-    margin: 0px;
+.producto_texto {
+    padding: 20px;
 }
 
-.precio_boton_tarjeta {
-    display: flex;
-    justify-content: space-between;
-    padding: 10px 0px 0px 10px;
+.titulo2 {
+    font-size: 1.5em;
+    margin: 0 0 10px;
 }
 
-.precio_tarjeta {
-    font-family: 'Inter', sans-serif;
-    font-weight: 600;
-    font-size: 2em;
-    margin: 0px;
+.menu {
+    color: #555;
 }
 
-.boton_tarjeta {
-    margin: 0px;
-    border-radius: 35px;
-    background-color: #A3A656;
-    color: #ffffff;
+.btn_orden {
+    background-color: #FF6347;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
     font-size: 1em;
-    height: 1.9em;
-    padding: 5px 30px 5px 30px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: 'Inter', sans-serif;
+    border-radius: 5px;
+    margin-top: 10px;
 }
 
-.boton_tarjeta:hover {
-    background-color: #384001;
+.btn_orden:hover {
+    background-color: #e5533d;
+}
+
+#producto_menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
 }

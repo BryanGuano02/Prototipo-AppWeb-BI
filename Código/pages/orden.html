@@ -1,109 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>orden</title>
-    <style>
-        .orden {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            width: 50%;
-            border: 1px solid #9d9d9d;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-            margin: 20px auto;
-            padding: 20px;
-            border-radius: 10px;
-            background-color: #f2f2f2;
-        }
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Orden</title>
+        <link rel="stylesheet" type="text/css" href="/css/style_orden.css">
+    </head>
 
-        .orden_header {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            width: 100%;
-            padding: 10px;
-            border-bottom: 1px solid #ddd;
-
-        }
-
-        .orden_header p {
-            margin: 0;
-            color: #333;
-            font-size: 1.2em;
-
-        }
-
-        .orden_productos h3 {
-            margin: 20px 0 10px 0;
-            color: #333;
-            text-align: center;
-        }
-
-
-        .orden_productos ul {
-            list-style: none;
-            padding: 0;
-        }
-
-        .orden_productos li {
-            margin: 5px 0;
-            color: #666;
-        }
-
-        .total {
-            margin: 20px 0;
-            color: #333;
-            font-size: 1.5em;
-        }
-
-        .orden_botones {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            width: 100%;
-        }
-
-        .orden_botones .boton {
-            background-color: #000000;
-            color: #ffffff;
-            padding: 10px 20px;
-            margin-right: 5px;
-            border: none;
-            cursor: pointer;
-            border-radius: 4px;
-            transition: background-color 0.45s linear;
-        }
-
-        .orden_botones .boton:hover {
-            background-color: #555555;
-        }
-    </style>
-</head>
-
-<body>
-    <div class="orden">
-        <div class="orden_header">
-            <p class="nombre_cliente">Erik</p>
-            <p class="fecha_hora">2020-10-12 (20:20)</p>
-            <p class="estado">En proceso</p>
+    <body>
+        <header>
+            <h1>Detalle de la Orden</h1>
+        </header>
+        <div class="orden">
+            <div class="orden_header">
+                <p class="nombre_cliente">Erik</p>
+                <p class="fecha_hora">2020-10-12 (20:20)</p>
+                <p class="estado">En proceso</p>
+            </div>
+            <div class="orden_productos">
+                <h3>Detalle</h3>
+                <ul>
+                    <li>Producto 1 - $100</li>
+                    <li>Producto 2 - $200</li>
+                    <li>Producto 3 - $300</li>
+                </ul>
+            </div>
+            <p class="total">Total: $600</p>
+            <div class="orden_botones">
+                <button class="boton">Completar</button>
+            </div>
         </div>
-        <div class="orden_productos">
-            <h3>Detalle</h3>
-            <ul>
-                <li>Producto 1 - $100</li>
-                <li>Producto 2 - $200</li>
-                <li>Producto 3 - $300</li>
-            </ul>
-        </div>
-        <p class="total">Total: $600</p>
-        <div class="orden_botones">
-            <p class="boton">Completar</p>
-        </div>
-    </div>
-    </div>
-</body>
+    </body>
 
 </html>

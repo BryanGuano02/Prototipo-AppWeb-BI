@@ -1,0 +1,101 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #FF6347;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.principal {
+    background: url('/images/restaurant_bg.jpg') no-repeat center center/cover;
+    padding: 20px;
+}
+
+.hero {
+    background: rgba(0, 0, 0, 0.5);
+    height: 400px;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero h1 {
+    background-color: #FF6347;
+    font-size: 3em;
+    margin: 0;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.intro {
+    padding: 20px;
+    text-align: center;
+}
+
+.tarjeta_producto {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 20px;
+    overflow: hidden;
+    width: 300px;
+    text-align: center;
+}
+
+.imagen_tarjeta {
+    width: 100%;
+    height: auto;
+}
+
+.producto_texto {
+    padding: 20px;
+}
+
+.titulo2 {
+    font-size: 1.5em;
+    margin: 0 0 10px;
+}
+
+.menu {
+    color: #555;
+}
+
+.btn_orden {
+    background-color: #FF6347;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 1em;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.btn_orden:hover {
+    background-color: #e5533d;
+}
+
+#producto_menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}

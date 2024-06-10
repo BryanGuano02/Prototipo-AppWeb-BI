@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Ordenes del Carrito</title>
+        <link rel="stylesheet" type="text/css"
+            href="./css/style_orden_user.css">
+
+    </head>
+    <body>
+        <header>
+            <h1>Ordenes del Carrito</h1>
+        </header>
+        <div id="ordenes">
+            <h2>Productos en tu Orden</h2>
+            <div class="orden">
+                <div class="orden_header">
+                    <p class="nombre_cliente">Producto 1</p>
+                    <p class="precio">$10.00</p>
+                </div>
+            </div>
+            <div class="orden">
+                <div class="orden_header">
+                    <p class="nombre_cliente">Producto 2</p>
+                    <p class="precio">$15.00</p>
+                </div>
+            </div>
+            <div class="orden">
+                <div class="orden_header">
+                    <p class="nombre_cliente">Producto 3</p>
+                    <p class="precio">$20.00</p>
+                </div>
+            </div>
+            <div class="orden_botones">
+                <button class="boton" onclick="realizarPago()">Pagar</button>
+            </div>
+        </div>
+        <script>
+            function realizarPago() {
+                alert("El pago se ha realizado");
+                window.location.href = "lista_productos.html";
+            }
+        </script>
+    </body>
+</html>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Lista de productos</title>
+        <link rel="stylesheet" type="text/css"
+            href="./css/style_list_productos.css">
+    </head>
+
+    <body>
+        <header>
+            <h1>Bienvenidos a nuestro Restaurante</h1>
+        </header>
+        <div class="principal">
+            <div class="hero">
+                <h1>Deléitate con nuestros platillos</h1>
+            </div>
+
+            <div class="intro">
+                <p>Ofrecemos una variedad de platillos exquisitos para que
+                    disfrutes de una experiencia gastronómica única. Explora
+                    nuestro menú a continuación:</p>
+            </div>
+            <button class="btn_orden" onclick="window.location.href = 'index.html'">Salir</button>
+        </div>
+        <div id="producto_menu">
+            <div class="tarjeta_producto">
+                <img class="imagen_tarjeta" src="./images/Torra.jpg"
+                    alt="Plato 1">
+                <div class="producto_texto">
+                    <p class="titulo2">Picaditas </p>
+                    <p class="menu">Deliciosas tortitas de papa servidas con
+                        salsa especial.</p>
+                    <button class="btn_orden" onclick="window.location.href='./orden_user.html'">Agregar a la orden</button>
+                </div>
+            </div>
+            <div class="tarjeta_producto">
+                <img class="imagen_tarjeta" src="./images/Poke.jpg"
+                    alt="Plato 2">
+                <div class="producto_texto">
+                    <p class="titulo2">Ensalada César</p>
+                    <p class="menu">Fresca ensalada con aderezo César y crutones
+                        crujientes.</p>
+                    <button class="btn_orden " onclick="window.location.href='./orden_user.html'">Agregar a la orden</button>
+                  
+                </div>
+                <button class="btn_salir" onclick="window.location.href = 'index.html'">Sali</button>
+            </div>
+            <!-- Puedes agregar más tarjetas de productos aquí -->
+        </div>
+   
+
+        <footer>
+            <p>&copy; 2024 Restaurante Gourmet. Todos los derechos
+                reservados.</p>
+        </footer>
+    </body>
+
+</html>

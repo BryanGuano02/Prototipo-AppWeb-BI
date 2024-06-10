@@ -9,6 +9,7 @@
     </head>
 
     <body>
+            
         <div class="login-container">
             <h2>Bienvenido a Restaurante Saboroso</h2>
             <form action="/submit-your-login-form" method="POST">
@@ -21,7 +22,10 @@
                     <input type="password" id="password" name="password"
                         required>
                 </div>
-                <button type="submit">Iniciar sesión</button>
+                <button type="submit" onclick="window.location.href='./lista_productos.html'">Iniciar sesión</button>
+                
+                <button type="submit" onclick="window.location.href='./lista_productos_restaurante.html'">Entrar como gestor </button>
+            
             </form>
         </div>
     </body>
